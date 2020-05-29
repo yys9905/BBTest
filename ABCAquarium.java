@@ -8,6 +8,14 @@
 public class ABCAquarium
 {
     public int pay_processing(){
+        if (age >= 16)
+        {
+            return  2000;
+        }
+        else if (age >= 7)
+        {
+            return  900;
+        }
         else if (age >= 4){
             return 400;
         }
